@@ -1,0 +1,8 @@
+INSERT [dbo].[DonVi] ([MaKhoa], [TenKhoa]) VALUES (N'K001', N'CNTT')
+INSERT [dbo].[DonVi] ([MaKhoa], [TenKhoa]) VALUES (N'K002', N'CNTT')
+INSERT [dbo].[DonVi] ([MaKhoa], [TenKhoa]) VALUES (N'K003', N'CNTT')
+INSERT [dbo].[NhanVien] ([MaNhanVien], [HoTen], [NgaySinh], [QueQuan], [HeSoLuong], [Luong], [MaKhoa]) VALUES (N'nv002', N'Nguyen Thi E', CAST(N'1985-05-05' AS Date), N'Saigon', 4, 20000000.0000, N'K002')
+INSERT [dbo].[NhanVien] ([MaNhanVien], [HoTen], [NgaySinh], [QueQuan], [HeSoLuong], [Luong], [MaKhoa]) VALUES (N'nv003', N'Hoang Van F', CAST(N'1990-06-06' AS Date), N'Nha Trang', 2.8, 12000000.0000, N'K003')
+INSERT [dbo].[SinhVien] ([MaSinhVien], [HoTen], [NgaySinh], [QueQuan], [DiemTrungBinh], [MaKhoa]) VALUES (N'sv001', N'Nguyen Van A', CAST(N'2000-01-01' AS Date), N'Hanoi', 8.5, N'K001')
+INSERT [dbo].[SinhVien] ([MaSinhVien], [HoTen], [NgaySinh], [QueQuan], [DiemTrungBinh], [MaKhoa]) VALUES (N'sv002', N'Tran Thi B', CAST(N'2001-02-02' AS Date), N'Haiphong', 7.8, N'K002')
+INSERT [dbo].[SinhVien] ([MaSinhVien], [HoTen], [NgaySinh], [QueQuan], [DiemTrungBinh], [MaKhoa]) VALUES (N'sv003', N'Le Van C', CAST(N'2002-03-03' AS Date), N'Danang', 9, N'K003')
