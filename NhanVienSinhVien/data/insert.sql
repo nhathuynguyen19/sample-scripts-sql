@@ -1,5 +1,5 @@
 INSERT [dbo].[DonVi] ([MaKhoa], [TenKhoa]) VALUES (N'K001', N'CNTT')
-INSERT [dbo].[DonVi] ([MaKhoa], [TenKhoa]) VALUES (N'K002', N'CNTT')
+INSERT [dbo].[DonVi] ([MaKhoa], [TenKhoa]) VALUES (N'K002', N'KTPM')
 INSERT [dbo].[DonVi] ([MaKhoa], [TenKhoa]) VALUES (N'K003', N'CNTT')
 INSERT [dbo].[NhanVien] ([MaNhanVien], [HoTen], [NgaySinh], [QueQuan], [HeSoLuong], [Luong], [MaKhoa]) VALUES (N'nv002', N'Nguyen Thi E', CAST(N'1985-05-05' AS Date), N'Saigon', 4, 20000000.0000, N'K002')
 INSERT [dbo].[NhanVien] ([MaNhanVien], [HoTen], [NgaySinh], [QueQuan], [HeSoLuong], [Luong], [MaKhoa]) VALUES (N'nv003', N'Hoang Van F', CAST(N'1990-06-06' AS Date), N'Nha Trang', 2.8, 12000000.0000, N'K003')
